@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #232c2d;
+    color: #f6f5f3;
+    font-family: Inter;
+    font-size: 16px;
+}
+h1 {
+    font-size: 2em;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+body a {
+    color: #8a867f;
+}
+body p em{
+    color: #232c2d;
+    background-color: #6f7474;
+}
+header {
+    text-transform: uppercase;
+}
+.top {
+    background-color: #515350;
+}
