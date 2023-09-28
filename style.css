@@ -37,10 +37,22 @@ gap: 14px;
 }
 
 header nav{
-    display: flex;
+display: flex;
 padding: 20px;
+flex-direction: row;
 justify-content: space-between;
 align-items: center;
+visibility: hidden;
+}
+
+header nav:hover{
+    visibility: visible;
+    margin-right: 20px;
+    transition: all 0.75s ease-out;
+}
+
+#icon{
+    visibility:visible;
 }
 
 body {
@@ -65,6 +77,11 @@ h2{
 
 body a {
     color: #8a867f;
+    
+}
+
+a:hover {
+    background: #6f7474;
 }
 
 body p em{
@@ -110,3 +127,15 @@ main h2{
     font-weight: 600;
     line-height: 32px;
 }
+
+main p{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* header object:hover {
+header nav
+} */
