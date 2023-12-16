@@ -136,6 +136,11 @@ main p{
     line-height: 24px;
 }
 
+.image {
+    position: relative;
+    left: 40%;
+}
+
 /* header object:hover {
 header nav
 } */
