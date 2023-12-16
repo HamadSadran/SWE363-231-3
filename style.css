@@ -141,6 +141,13 @@ main p{
     left: 40%;
 }
 
+.heading {
+    text-align: center;
+}
+
+.main-text {
+    text-align: center;
+}
 /* header object:hover {
 header nav
 } */
