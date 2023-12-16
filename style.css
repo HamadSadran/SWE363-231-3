@@ -142,7 +142,7 @@ main p{
     gap: 260px;
 } */
 
-.phone {
+.body {
     display: flex;
     width: 390px;
     flex-direction: column;
